@@ -3,7 +3,7 @@
 namespace typestring
 {
     template<typename T>
-    constexpr auto nameof()
+    inline constexpr auto nameof()
     {
     #if defined(__clang__)
         // 0         1         2
