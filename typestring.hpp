@@ -1,3 +1,6 @@
+##ifndef TYPESTRING_HPP_INCLUDED
+#define TYPESTRING_HPP_INCLUDED
+
 #include<string_view>
 
 namespace typestring
@@ -45,3 +48,5 @@ namespace typestring
     template<typename T, typename U>
     inline constexpr bool less = name<T> < name<U>;
 }
+
+#endif // TYPESTRING_HPP_INCLUDED
