@@ -1,4 +1,4 @@
-##ifndef TYPESTRING_HPP_INCLUDED
+#ifndef TYPESTRING_HPP_INCLUDED
 #define TYPESTRING_HPP_INCLUDED
 
 #include<string_view>
