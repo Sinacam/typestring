@@ -2,7 +2,7 @@
 typestring converts a type to its name as a constexpr std::string_view.
 
 ````c++
-namespace N { struct S{ struct R; }; }
+namespace N { struct S { struct R; }; }
 using T = N::S::R;
 std::cout << typestring::name<int>;     // prints int
 std::cout << typestring::name<N::S::R>; // prints N::S::R
